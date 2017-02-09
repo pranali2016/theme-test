@@ -26,7 +26,7 @@ deploy:
     -   "promactolympic/front-page.php"
     -   "promactolympic/functions.php"
     -   "promactolympic/header-home.php"
-    -   "promactolympic/promactolympic/header.php"
+    -   "promactolympic/header.php"
     -   "promactolympic/inc/back-compat.php"
     -   "promactolympic/inc/color-patterns.php"
     -   "promactolympic/inc/custom-header.php"
