@@ -6,6 +6,13 @@ php:
 
 sudo: false
 
+env:
+    global:
+
+addons:
+    apt:
+        packages:
+            - sshpass
 script:
     # Search theme for PHP syntax errors.
     - find . \( -name '*.php' \) -exec php -lf {} \;
