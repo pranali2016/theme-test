@@ -15,8 +15,7 @@ addons:
             - sshpass
 script:
     # Search theme for PHP syntax errors.
-    -phpunit
-    #- find . \( -name '*.php' \) -exec php -lf {} \;
+    - find . \( -name '*.php' \) -exec php -lf {} \;
 
 after_success:
     -export SSHPASS = $DEPLOY_PASS
